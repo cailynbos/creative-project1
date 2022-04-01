@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-link {
+    color: #A5A58D !important;
+}
+
+.active {
+    color: #6B705C !important;
+    font-weight: bold;
+}
+
+.user-info {
+    margin: 30px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.username {
+    color: #CB997E;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #6B705C;
+    font-size: 15px;
+}
+
+.feed {
+    margin: 30px;
+    margin-top: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px solid #A5A58D;
+}
+
+.feed img {
+    width: 33%;
+    padding: 5px;
+}
