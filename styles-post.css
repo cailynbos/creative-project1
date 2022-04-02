@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-link {
+    color: #A5A58D !important;
+}
+
+.active {
+    color: #6B705C !important;
+    font-weight: bold;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.upload {
+    width: 200px;
+    margin-left: -10px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.description {
+    resize: none;
+    margin-top: 50px;
+}
+
+.post-button {
+    margin-top: 30px;
+    background-color: #B7B7A4;
+}
